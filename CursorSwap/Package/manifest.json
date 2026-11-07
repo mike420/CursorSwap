@@ -1,0 +1,10 @@
+{
+  "name": "CursorSwap",
+  "description": "Swap the mouse cursor for one of nine hand drawn cursors, or your own, at any size.",
+  "version_number": "1.0.0",
+  "website_url": "https://discord.gg/mnr36G6J4x",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350",
+    "ValheimModding-Jotunn-2.30.2"
+  ]
+}
