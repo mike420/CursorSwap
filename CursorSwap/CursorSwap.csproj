@@ -52,7 +52,7 @@
     <Compile Include="CursorSwapPlugin.cs" />
     <Compile Include="MainConfig.cs" />
     <Compile Include="CursorLibrary.cs" />
-    <Compile Include="Patches\ZNetScene_Patches.cs" />
+    <Compile Include="Patches\Cursor_Patches.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Shared\ModSettings\*.cs">

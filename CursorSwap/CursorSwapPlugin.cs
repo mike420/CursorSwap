@@ -24,7 +24,12 @@ public class CursorSwapPlugin : BaseUnityPlugin
 	internal static ConfigFile ConfigFile;
 	internal static ConfigFileWatcher ConfigFileWatcher;
 
+	// How often, in seconds, the cursor is set again in case another mod changed it
+	private const float ReapplyInterval = 1f;
+
 	private Harmony harmony;
+
+	private float reapplyTimer;
 
 	public void Awake()
 	{
@@ -57,6 +62,16 @@ public class CursorSwapPlugin : BaseUnityPlugin
 			{
 				CursorLibrary.Apply();
 			};
+		}
+	}
+
+	private void Update()
+	{
+		reapplyTimer += UnityEngine.Time.unscaledDeltaTime;
+		if (reapplyTimer >= ReapplyInterval)
+		{
+			reapplyTimer = 0f;
+			CursorLibrary.Reapply();
 		}
 	}
 

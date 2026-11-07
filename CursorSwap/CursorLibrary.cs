@@ -34,6 +34,12 @@ internal static class CursorLibrary
 	// The cursor name and size s_texture was made for
 	private static string s_textureKey;
 
+	// True while a cursor from this mod is set, so other mods are kept from changing it
+	internal static bool Guarding { get; private set; }
+
+	// True while this mod is setting the cursor, so the guard lets the call through
+	internal static bool Setting { get; private set; }
+
 	internal static string[] Names { get; private set; } = { VanillaName };
 
 	internal static string DefaultName => Names.Length > 1 ? Names[1] : VanillaName;
@@ -110,7 +116,30 @@ internal static class CursorLibrary
 			s_textureKey = key;
 			s_hotspot = FindTip(texture);
 		}
-		Cursor.SetCursor(s_texture, s_hotspot, CursorMode.Auto);
+		SetCursor(s_texture, s_hotspot);
+		Guarding = true;
+	}
+
+	// Sets the chosen cursor again, in case another mod changed it some way the guard could not catch
+	internal static void Reapply()
+	{
+		if (Guarding && s_texture != null)
+		{
+			SetCursor(s_texture, s_hotspot);
+		}
+	}
+
+	private static void SetCursor(Texture2D texture, Vector2 hotspot)
+	{
+		Setting = true;
+		try
+		{
+			Cursor.SetCursor(texture, hotspot, CursorMode.Auto);
+		}
+		finally
+		{
+			Setting = false;
+		}
 	}
 
 	private static void SetVanilla()
@@ -120,8 +149,9 @@ internal static class CursorLibrary
 			s_vanillaLooked = true;
 			s_vanilla = Resources.FindObjectsOfTypeAll<Texture2D>().FirstOrDefault(t => t.name == "cursor" && t.isReadable);
 		}
-		// With no texture the game's default cursor is used
-		Cursor.SetCursor(s_vanilla, Vector2.zero, CursorMode.Auto);
+		// With no texture the game's default cursor is used. Other mods may change the Vanilla cursor
+		Guarding = false;
+		SetCursor(s_vanilla, Vector2.zero);
 	}
 
 	private static Texture2D Load(string name, Func<byte[]> source, int size)
