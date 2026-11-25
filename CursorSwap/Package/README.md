@@ -2,8 +2,6 @@
 
 Swap Valheim's mouse cursor for one of nine hand drawn cursors, or your own, at whatever size suits your screen.
 
-Based on CursorSwapper by Azumatt, rebuilt on Jötunn with a list of cursors to choose from.
-
 <br>
 
 ## 🔥 Features:
@@ -74,7 +72,7 @@ For Nexus downloads you will need to install manually.
   * <a href="https://valheim.hexium.gg/mods/MagicMike/CorewoodAdditions">Corewood Additions</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/MyDirtyHoe">My Dirty Hoe</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/ChestPreview">Chest Preview</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/YabbaDabbaDoo">YabbaDabbaDoo</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/YabbaDabbaDoo">Yabba Dabba Doo</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterBuildMenu">Better Build Menu</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterCrafting">Better Crafting</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterEquipSlots">Better Equip Slots</a>
