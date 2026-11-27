@@ -1,7 +1,24 @@
+![](https://imgup.uk/i/RlDzGrHb.png)
+
+
 # 🖱️ Cursor Swap
 
 Swap Valheim's mouse cursor for one of nine hand drawn cursors, or your own, at whatever size suits your screen.
 
+<br>
+
+
+## 💶 Donations: 
+
+If you enjoy using this Valheim mod, please consider making a small donation to help support its development and future updates.
+
+Even £1 or $1 would be greatly appreciated and would help more than you might think!
+
+Thank you for your support, and happy gaming! ⚔️  ...... (A Paypal account is NOT required!)
+
+<a href="https://www.paypal.com/donate/?hosted_button_id=BN8HEWHRMAREU">![](https://imgup.uk/i/n7Sg7WK9.png)</a>
+
+<br>
 <br>
 
 ## 🔥 Features:
@@ -29,7 +46,7 @@ Swap Valheim's mouse cursor for one of nine hand drawn cursors, or your own, at 
   * **Cursor** (default `Arcane Dagger & Casting Hand`): the cursor to use, from the list. Vanilla is the game's own cursor.
   * **Cursor Size** (default `48`): how big the cursor is, in pixels, from 16 to 128. Does not change the Vanilla cursor.
 
-Settings can be changed in game (with Configuration Manager or the mod settings menu) and take effect straight away.
+Settings can be changed in game (with Configuration Manager or the F7 mod settings menu) and take effect straight away.
 
 <br>
 
@@ -41,8 +58,8 @@ Settings can be changed in game (with Configuration Manager or the mod settings 
 
 ## 📦 Requirements:
 
-  * <a href="https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/">BepInExPack Valheim</a>
-  * <a href="https://thunderstore.io/c/valheim/p/ValheimModding/Jotunn/">Jötunn</a>
+  * <a href="https://valheim.hexium.gg/mods/denikson/BepInExPack_Valheim">BepInExPack Valheim</a>
+  * <a href="https://valheim.hexium.gg/mods/ValheimModding/Jotunn">Jötunn</a>
 
 <br>
 
@@ -67,18 +84,21 @@ For Nexus downloads you will need to install manually.
 <br>
 
 ## 💥 Plugins Created by Magic Mike:
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/AuroraBorealis">Aurora Borealis</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterBuildMenu">Better Build Menu</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterEquipSlots">Better Equip Slots</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/CorewoodAdditions">Corewood Additions</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/CoreWoodExtras">Corewood Extras</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/CorewoodFortified">Corewood Fortified</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/CorewoodAdditions">Corewood Additions</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/MyDirtyHoe">My Dirty Hoe</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/ChestPreview">Chest Preview</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/YabbaDabbaDoo">Yabba Dabba Doo</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterBuildMenu">Better Build Menu</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterCrafting">Better Crafting</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/BetterEquipSlots">Better Equip Slots</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/DestroyIt">Destroy It</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/EinherjarBodies">Einherjar Bodies</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/ExtraInventorySlots">Extra Inventory Slots</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/MyDirtyHoe">My Dirty Hoe</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/ValheimSkies">Valheim Skies</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/VanityWardrobe">Vanity Wardrobe</a>
   * <a href="https://valheim.hexium.gg/mods/MagicMike/VillagePlebs">Village Plebs</a>
-  * <a href="https://valheim.hexium.gg/mods/MagicMike/BodyReplacer">Body Replacer</a>
+  * <a href="https://valheim.hexium.gg/mods/MagicMike/YabbaDabbaDoo">YabbaDabbaDoo</a>
 
 <br>
 
@@ -86,9 +106,3 @@ For Nexus downloads you will need to install manually.
 ## 💬 Comments/Suggestions/Help: <a href="https://discord.gg/mnr36G6J4x">Discord</a>.
 
 <br>
-
-## 💶 Donations: 
-
-Please support this project if you can!
-
-<a href="https://www.paypal.com/donate/?hosted_button_id=BN8HEWHRMAREU">![](https://imgup.uk/i/n7Sg7WK9.png)</a>
