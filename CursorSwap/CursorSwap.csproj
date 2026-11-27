@@ -165,4 +165,10 @@ System.IO.File.WriteAllText(ManifestFile, content);
       GetAssemblyVersion
     </BuildDependsOn>
   </PropertyGroup>
+  <!-- JotunnLib 2.30.3+ also references the non-publicized ImageConversionModule (built against netstandard 2.1), which breaks the net48 build; keep only the publicized one -->
+  <Target Name="UsePublicizedImageConversionModule" BeforeTargets="ResolveAssemblyReferences">
+    <ItemGroup>
+      <Reference Remove="@(Reference)" Condition="'%(Reference.Identity)' == 'UnityEngine.ImageConversionModule' And !$([System.String]::Copy('%(Reference.HintPath)').Contains('publicized_assemblies'))" />
+    </ItemGroup>
+  </Target>
 </Project>
